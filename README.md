@@ -3,23 +3,16 @@ Location Finder
 
 Folder Structure
 dhl_location_finder/
+
 ├── dhl_location_finder.info.yml
-
 ├── dhl_location_finder.routing.yml
-
 ├── src/
-
 │   ├── Controller/
-
 │   │   └── LocationController.php
-
 │   ├── Form/
-
 │   │   └── LocationForm.php
-
 │   └── Service/
 │       └── LocationService.php
-
 └── tests/
     └── Functional/
         └── LocationFinderTest.php
