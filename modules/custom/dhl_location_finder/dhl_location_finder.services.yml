@@ -1,0 +1,4 @@
+services:
+  dhl_location_finder.location_service:
+    class: '\Drupal\dhl_location_finder\Service\LocationService'
+    arguments: ['@http_client', '@logger.factory']
